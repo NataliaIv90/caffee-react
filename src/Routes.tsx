@@ -11,6 +11,11 @@ const router = createBrowserRouter([
       //   path: '/',
       // },
       {
+        element: <div>Main</div>,
+        path: '/',
+        index: true,
+      },
+      {
         element: <div>Menu</div>,
         path: 'menu',
         index: true,
